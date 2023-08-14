@@ -1,8 +1,29 @@
-# AvGeek
+# AvGeeks
 
 Link to web application: https://avgeeks.onrender.com/
 ![image](https://github.com/tonyy007/AvGeek/assets/50556324/970c169b-b0fe-4c68-91f2-00905872ae83)
 
+## Functionaliy
+
+Flight Lookup -
+
+Inputs - 
+Departing Airport
+Arriving Airport
+Flight Number
+Airline
+![image](https://github.com/tonyy007/AvGeek/assets/50556324/a2bf11fd-5e9a-4113-b305-9a1d4a587ec1)
+
+
+Return-
+Status
+Departing Airport
+Scheduled Departure
+Arriving Airport
+Scheduled Arrival
+Airline
+Flight Number
+![image](https://github.com/tonyy007/AvGeek/assets/50556324/bab0aa52-9742-485b-bfcc-33993926bc77)
 
 ## The Story
 
