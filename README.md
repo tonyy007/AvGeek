@@ -5,7 +5,7 @@ Link to web application: https://avgeeks.onrender.com/
 
 ## Functionaliy
 
-Flight Lookup -
+### Flight Lookup -
 
 Inputs -  
 Departing Airport  
@@ -24,6 +24,21 @@ Scheduled Arrival
 Airline  
 Flight Number  
 ![image](https://github.com/tonyy007/AvGeek/assets/50556324/bab0aa52-9742-485b-bfcc-33993926bc77)
+
+### Aircraft Search
+
+Input -  
+Aircraft Registration  
+![image](https://github.com/tonyy007/AvGeek/assets/50556324/e9f58d81-7ed5-4f3e-9a01-7ea89921360e)
+
+Return -  
+Aircraft Type  
+Airline  
+Age  
+Delivery Date  
+Number of Engines  
+Engine Type  
+![image](https://github.com/tonyy007/AvGeek/assets/50556324/ef87b72b-8087-4635-a221-e7055933a006)
 
 ## The Story
 
