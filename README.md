@@ -1,6 +1,6 @@
 # AvGeek
 
-https://avgeeks.onrender.com/
+Link to web application: https://avgeeks.onrender.com/
 
 ## The Story
 
