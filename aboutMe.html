@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href ="navbar.css" >
+        <link rel="stylesheet" href ="aboutMe.css" >
+
+        <!-- Below is for local testing only -->
+        <link rel="stylesheet" href ="public/navbar.css" >
+        <link rel="stylesheet" href ="public/aboutMe.css" >
+        <script src="https://kit.fontawesome.com/7a6089174e.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section>
+            
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class = "checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class = "logo"><a href = "home.html" style="text-decoration: none; color:white; background-color: transparent;">AvGeeks</a></label>
+                <ul>
+                    <li><a href="home.html" style = "text-decoration: none;">Home</a></li>
+                    <li><a href="LookUp.html" style = "text-decoration: none;">Flight Search</a></li>
+                    <li><a href="aircraft.html" style = "text-decoration: none;">Aircraft Search</a></li>
+                    <li><a href="airport.html" style = "text-decoration: none;">Airport Search</a></li>
+                    <li><a href="#" class= "active" style = "text-decoration: none;">About Me </a></li>
+                </ul>
+            </nav>
+
+            <div class = "content">
+                <div class = "info">
+                    <h2>About the<br><span>Creator</span></h2>
+                    <p><strong>Tony Yang</strong> | <a href="https://github.com/tonyy007" target="_blank" onMouseOver="this.style.background='linear-gradient(135deg, rgba(192, 133, 133, 0),rgba(153, 133, 66, 0))'" onMouseOut="this.style.background='linear-gradient(135deg, rgba(192, 133, 133, 0),rgba(153, 133, 66, 0))'"><img style="width:25px;margin-left: 0%;" src="github.png"> </a>| <a href="https://www.linkedin.com/in/tony-yang1/" target="_blank" onMouseOver="this.style.background='linear-gradient(135deg, rgba(192, 133, 133, 0),rgba(153, 133, 66, 0))'" onMouseOut="this.style.background='linear-gradient(135deg, rgba(192, 133, 133, 0),rgba(153, 133, 66, 0))'"><img style="width:25px;margin-left: 0%;" src="linkedIn.png"></a></p>
+                </div>
+                
+            </div>
+            <div class="about">
+                <h1>The Story Behind AvGeeks</h1>
+                <p>Tony Yang is currently pursuing a master's degree in computer science at <font COLOR="maroon"><strong>Texas A&M University</strong></font>. 
+                    Beyond technology, he also loves aviation and has a curiosity of how airports and planes operate. 
+                    His loves spending his time travelling and planespotting. He has been to Asia, Europe, and of course North America. 
+                    He loves seaching information about flights, airports, and aircraft. 
+                    Hence, the reason AvGeeks was born.
+                </p>
+                <img src="tony.jpg">
+            </div>
+        </section>
+        
+    </body>
+</html>

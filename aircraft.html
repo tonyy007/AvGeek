@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>AvGeeks - Look Up Aircraft</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href ="navbar.css" >
+        <!-- <link rel="stylesheet" href ="home.css" > -->
+        <link rel="stylesheet" href ="aircraft.css" >
+
+        <!-- Below is for local testing only -->
+        <link rel="stylesheet" href ="public/navbar.css" >
+        <!-- <link rel="stylesheet" href ="public/home.css" > -->
+        <link rel="stylesheet" href ="public/aircraft.css" >
+
+        <script src="https://kit.fontawesome.com/7a6089174e.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="aircraft.js"></script>
+        <script src="public/aircraft.js"></script>        
+    </head>
+
+    <body>
+        <section>
+            <!-- Navigation bar/header. Try to incorporate html -->
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class = "checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class = "logo"><a href = "home.html" style="text-decoration: none; color:white; background-color: transparent;">AvGeeks</a></label>
+                <ul>
+                    <li><a href="home.html" style = "text-decoration: none;">Home</a></li>
+                    <li><a href="LookUp.html" style = "text-decoration: none;">Flight Search</a></li>
+                    <li><a href="#" class= "active" style = "text-decoration: none;">Aircraft Search</a></li>
+                    <li><a href="airport.html" style = "text-decoration: none;">Airport Search</a></li>
+                    <li><a href="aboutMe.html" style = "text-decoration: none;">About Me </a></li>
+                </ul>
+            </nav>
+
+            <div id=form style = "width:30%;margin-left:auto; margin-right:auto;">
+                <h1 style = "text-align: left;">Search Aircraft</h1>
+                <div class="form-group">
+                  <label >Aircraft Registration </label>
+                  <input type="text" class="form-control" id="reg" placeholder="(e.g N38424, N333EN, etc.)">
+                </div>
+                <button type="submit" class="btn btn-primary" id = "push">Search</button>
+              <!-- </form> -->
+              <p>An aicraft's registration is usually 5 or 6 chracters consisting of numbers and letters, which may or may not be separated by a dash. This is located near or on the tail of the aircraft. This is like the equivalent of the license plate of a car. See if you can find the aircraft's registration in the picture below.</p>
+              <img src="https://qph.fs.quoracdn.net/main-qimg-20a19888fffe09f38c0ae8c90c8f1c2d.webp" style = "width: 100%">
+              </div>
+
+            <div id="put"></div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+        <meta charset="utf-8">
+        <title>AvGeeks - Look Up Flight</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href ="navbar.css" >
+        <!-- <link rel="stylesheet" href ="home.css" > -->
+        <link rel="stylesheet" href ="lookup.css" >
+
+        <!-- Below is for local testing only -->
+        <link rel="stylesheet" href ="public/navbar.css" >
+        <!-- <link rel="stylesheet" href ="public/home.css" > -->
+        <link rel="stylesheet" href ="public/lookup.css" >
+
+
+
+        <script src="https://kit.fontawesome.com/7a6089174e.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="lookup.js"></script>
+        <script src="public/lookup.js"></script>
+
+        <style>
+            @media(max-width:968px){
+/* nav{
+    min-width: 968px;
+} */
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <!-- Navigation bar/header. Try to incorporate html -->
+            <nav id = 'navbar'>
+                <input type="checkbox" id="check" onclick="header()">
+                <label for="check" class = "checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class = "logo"><a href = "home.html" style="text-decoration: none; color:white; background-color: transparent;">AvGeeks</a></label>
+                <ul>
+                    <li><a href="home.html" style = "text-decoration: none;">Home</a></li>
+                    <li><a href="#" class= "active" style = "text-decoration: none;">Flight Search</a></li>
+                    <li><a href="aircraft.html" style = "text-decoration: none;">Aircraft Search</a></li>
+                    <li><a href="airport.html" style = "text-decoration: none;">Airport Search</a></li>
+                    <li><a href="aboutMe.html" style = "text-decoration: none;">About Me </a></li>
+                </ul>
+            </nav>
+            
+            <div id=form style = "width:30%;margin-left:auto; margin-right:auto;">
+                <h1 style = "text-align: left;">Search Flights</h1>
+                <div class="form-group">
+                  <label >Departing Airport </label>
+                  <input type="text" class="form-control" id="dep" placeholder="(e.g DFW, LAX, etc.)">
+                </div>
+                <div class="form-group">
+                  <label >Arriving Airport </label>
+                  <input type="text" class="form-control" id="arr" placeholder="(e.g DFW, LAX, etc.)">
+                </div>
+                <div class="form-group">
+                   <label >Flight Number </label>
+                   <input type="text" class="form-control" id="num" placeholder="(e.g 257, 6311)">
+                </div>
+                <div class="form-group">
+                    <label >Airline </label>
+                    <input type="text" class="form-control" id="air" placeholder="(e.g AA, UA, DL etc.)">
+                 </div>
+                <button type="submit" class="btn btn-primary" id = "push">Search</button>
+              <!-- </form> -->
+              </div>
+
+            <div id="put"></div>
+        </section>
+        <script>
+            function header(){
+                const tab = document.getElementById('check');
+                
+                if(tab.checked){
+                    document.getElementById('head').style.visibility = 'hidden';
+                }else{
+                    document.getElementById('head').style.visibility = 'visible';
+                }
+            }
+        </script>
+    </body>
+
+</html>
